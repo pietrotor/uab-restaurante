@@ -1,0 +1,9 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+ 
+  .carousel-item img:hover {
+    opacity: 0.8;
+    transition: 0.3s ease;
+  }
+  

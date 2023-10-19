@@ -17,6 +17,7 @@ body{
     position: fixed;
     z-index: 9999;
   }
+<<<<<<< HEAD
   .carousel-image {
     object-fit: cover;
     height: 100vh; 
@@ -66,3 +67,51 @@ body{
     height: 100vh;
     
 }
+=======
+  /*Contacto.html*/
+.hero-page{
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(.//imagenes/imagen2.jpg) center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-hero-page{
+    color: #fff;
+    padding: 1rem;
+}
+.section{
+    margin: 3rem auto;
+    padding: 1rem;
+}
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+/*Formulario*/
+.formulario{
+    display: flex;
+    flex-flow: column;
+}
+.formulario input, .formulario textarea{
+    margin: .5rem 0;
+    padding: .5rem .2rem;
+}
+.formulario button{
+    width: fit-content;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: #ffc300;
+    color:#fff;
+    font-size: 1.1rem;
+}
+
+@media (max-width:640px){
+    .wrap-two-column{
+        grid-template-columns: 1fr;
+    }
+}
+>>>>>>> 0a7d911c7a970116e1662be137d2307d5a197c74

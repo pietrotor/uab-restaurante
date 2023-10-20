@@ -1,11 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
   }
  
-  .carousel-item img:hover {
-    opacity: 0.8;
-    transition: 0.3s ease;
+  
+
+  
+  .section-overlay {
+    position: fixed;
+    z-index: 9999;
   }
+<<<<<<< HEAD
+  .carousel-image {
+    object-fit: cover;
+    height: 100vh; 
+  }
+  .carousel-item img {
+    opacity: 1;
+    background-color: rgb(9, 9, 9);
+    transition: opacity 0.3s ;
+  }
+  
+  .carousel-item img:hover {
+    opacity: 1;
+    background-color: rgba(7, 0, 0, 0.778);
+  }
+  .carousel-item img:hover::before {
+    opacity: 1;
+   
+  }
+  ul {
+    
+    padding: 10px;
+  }
+  
+  ul li {
+    
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  ul li:hover {
+    background-color: #0479f7;
+  }
+  
+  ul li:hover a {
+    color: yellow;
+  }
+
+  ul.nav li.nav-item a.nav-link {
+    color: rgb(244, 239, 239);
+  }
+
+  .centered-buttons {
+    color: rgb(244, 239, 239); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+=======
   /*Contacto.html*/
 .hero-page{
     background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(.//imagenes/imagen2.jpg) center;
@@ -52,3 +114,4 @@
         grid-template-columns: 1fr;
     }
 }
+>>>>>>> 0a7d911c7a970116e1662be137d2307d5a197c74

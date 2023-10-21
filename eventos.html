@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- (head content remains the same) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif; /* Establece una fuente legible */
+        }
+        .navbar {
+            background-color: black;
+        }
+        .navbar-link {
+            color: gold !important;
+        }
+        .card {
+            margin: 10px 0;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: gold; /* Título de eventos en dorado */
+        }
+        .card-title {
+            color: black; /* Títulos de tarjetas en negro */
+        }
+        .card-text {
+            color: black; /* Texto de tarjetas en negro */
+        }
+    </style>
+    <title>Eventos | Restaurante Delicias Gourmet</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- (navbar content remains the same) -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurante Delicias Gourmet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <div class="container mt-5">

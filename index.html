@@ -5,52 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Restauante</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Palacion de Oro</title>
 </head>
 <body>
-<section class="section-overlay fixed-top ">
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="menu.html">Menu</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="eventos.html">Eventos</a>
-
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contacto.html">Contacto</a>
-      
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="sobre-nosotro.html">Sobre Nosotros</a>
-      
-    </li>
-    
-  </ul>
-
-  <div class="centered-buttons">
-    <a class="nav-link btn btn-outline-light" href="#">Registrarse</a>
-   
-</div>
   
-</section>
 
-  
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/plato3.jpg" class="d-block w-100  vh-100" alt="...">
+            <img src="img/cubiertos.jpg" class="d-block w-100  " alt="...">
+          </div>
+          <div class="carousel-caption">
+            <h1>Palacio de Oro</h1>
+            <br>
+            <br>
+            <p class="text-justify">un lugar sofisticado y acogedor que ofrece una amplia variedad 
+              de platos exquisitos y bebidas refrescantes. </p>
+        </div>
+          <div class="carousel-item">
+            <img src="img/asado.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption">
+              <h1>Palacio de Oro</h1>
+              <br>
+              <br>
+              <p class="text-justify">Una experiencia sofisticada y acogedora que ofrece una amplia variedad de
+                 platos exquisitos y bebidas refrescantes. </p>
+          </div>
           </div>
           <div class="carousel-item">
-            <img src="img/pasta.jpg" class="d-block w-100 vh-100" alt="...">
+            <img src="img/nachos.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption">
+              <h1>Palacio de Oro</h1>
+              <br>
+              <br>
+              <p class="text-justify">Una experincia sofisticada y acogedora que ofrece una amplia variedad de 
+                platos exquisitos y bebidas refrescantes. </p>
           </div>
-          <div class="carousel-item">
-            <img src="img/pizza.jpg" class="d-block w-100 vh-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -63,6 +56,53 @@
         </button>
       </div>
 
+
+        <section>
+       
+        </section>
+
+        <section>
+  
+        </section>
+      
+          
+
+        <section>
+          
+   
+    <div id="contact" class="container-fluid  text-dark border-top wow fadeIn">
+      <br>
+      <div>
+      <div class="row">
+        
+        <div class="col-md-6 px-2">
+          <div id="map" style="width: 80%; height: 60%; min-height: 400px"></div>
+      </div>
+     
+          <div class="col-md-6 px-5 has-height-lg middle-items">
+              <h3 style="text-color:black">Encuentranos</h3>
+              <br>
+              <p>Entre el primer y segundo anillo  ados cuadras
+                del monumento mauel mercado sobre la avenidad Ana 
+                Barba entre las calles heroes del chaco y Susan Azorte
+              </p>
+              <br>
+              <div class="text-muted">
+                  <p><span class="ti-location-pin pr-3"></span>Palacion de Oro Nro. 450</p>
+                  <p><span class="ti-support pr-3"></span> Tel: 3-344586</p>
+                  <p><span class="ti-email pr-3"></span>email: PalaciodeOro@gamilcom</p>
+              </div>
+            
+          
+         	
+      </div>
+  </div>
+  <br>
+  <br>
+
+
+        </section>
+    </div>
       
     
 
@@ -71,5 +111,9 @@
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    
 </body>
 </html>

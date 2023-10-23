@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: black;
+        }
+        .navbar-link {
+            color: gold !important;
+        }
+        .card {
+            margin: 10px 0;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            border-radius: 50%;
+            width: 100%; /* Cambia el tamaño de las imágenes al 100% del ancho de las tarjetas */
+            height: auto; /* Autoajusta la altura en proporción al ancho */
+        }
+        h1 {
+            color: gold;
+        }
+        .card-title {
+            color: black;
+        }
+        .card-text {
+            color: black;
+        }
+    </style>
     <title>Eventos | Restaurante Delicias Gourmet</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">Restaurante Delicias Gourmet</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,16 +48,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link navbar-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menú</a>
+                        <a class="nav-link navbar-link" href="#">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Eventos</a>
+                        <a class="nav-link navbar-link" href="#">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link navbar-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -45,11 +77,36 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class "card">
                     <img src="evento2.jpg" class="card-img-top" alt="Evento 2">
                     <div class="card-body">
                         <h5 class="card-title">Festival de Postres Artesanales</h5>
                         <p class="card-text">Disfruta de una variedad de postres caseros elaborados por nuestros talentosos chefs pasteleros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Eventos Pasados -->
+    <div class="container mt-5">
+        <h1>Eventos Pasados</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="evento3.jpg" class="card-img-top" alt="Evento 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Noche de Vinos y Quesos</h5>
+                        <p class="card-text">Revive la experiencia de nuestra noche especial con una selección de vinos y quesos exquisitos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="evento4.jpg" class="card-img-top" alt="Evento 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Cena de Gala Anual</h5>
+                        <p class="card-text">Revive los momentos elegantes de nuestra cena de gala anual con deliciosas comidas y música en vivo.</p>
                     </div>
                 </div>
             </div>
